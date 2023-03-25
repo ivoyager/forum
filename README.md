@@ -1,2 +1,2 @@
 # forum
-A discussion forum for I, Voyager and projects built with I, Voyager
+This repository maintains settings for our GitHub Discussions. There is no code.
