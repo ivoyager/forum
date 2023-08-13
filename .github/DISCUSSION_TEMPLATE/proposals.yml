@@ -1,0 +1,41 @@
+name: Feature implementation proposal
+description: Please describe your proposal in detail using the template. If your proposal isn't fully fleshed out yet, please open a discussion under General.
+body:
+
+- type: markdown
+  attributes:
+    value: |
+      - Write a descriptive proposal title above.
+
+- type: textarea
+  attributes:
+    label: Describe what is missing (or not great) and why it should be part of (or improved in) I, Voyager
+    placeholder: Example - "The Planetarium doesn't have comets. Comets are important celestial bodies and should be included." Or, "The development platform isn't structured as Godot Editor plugins. If it were, this would facilitate project development."
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: If this is a simulator "content" proposal, please describe how the content should appear and how users should interact with the content.
+    placeholder: Example - "Comets orbits and point locations should be visible like asteroids. They should have thier own category in GUI under asteroids."
+  validations:
+    required: false
+
+- type: textarea
+  attributes:
+    label: If this is a code proposal, please describe code API in detail.
+    placeholder: For code proposals, give as many and as detailed interface examples as you can.
+  validations:
+    required: false
+
+- type: textarea
+  attributes:
+    label: If applicable, please provide code, pseudo-code, mock-ups, and/or diagrams
+  validations:
+    required: false
+
+- type: textarea
+  attributes:
+    label: Should this proposal be part of **core** I, Voyager, or is it more of a special-case addon?
+  validations:
+    required: false
