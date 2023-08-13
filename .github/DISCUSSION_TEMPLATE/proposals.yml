@@ -7,7 +7,7 @@ body:
 
 - type: textarea
   attributes:
-    label: Describe what is missing (or not great) and why it should be part of (or improved in) I, Voyager
+    label: Describe what is missing or deficient and why it should be part of or improved in I, Voyager
     placeholder: Example - "The Planetarium doesn't have comets. Comets are important celestial bodies and should be included." Or, "The development platform isn't structured as Godot Editor plugins. If it were, this would facilitate project development."
   validations:
     required: true
