@@ -4,6 +4,7 @@ body:
   attributes:
     value: |
       Write a descriptive title for your proposal above and provide as much detail as you can in the fields below. If your idea is not fully fleshed out yet, please open a discussion in [General](https://github.com/orgs/ivoyager/discussions/categories/general) instead.
+(This is a new experimental template! Please give feedback in General discussion if you think it needs imporovement!)
 
 - type: textarea
   attributes:
