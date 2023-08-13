@@ -8,7 +8,7 @@ body:
 - type: textarea
   attributes:
     label: Describe what is missing or deficient and why it should be part of or improved in I, Voyager
-    placeholder: Example - "The Planetarium doesn't have comets. Comets are important celestial bodies and should be included."
+    placeholder: Example - "The Planetarium doesn't have comets. Comets are important solar system bodies that should be included."
   validations:
     required: true
 
@@ -21,7 +21,7 @@ body:
 
 - type: textarea
   attributes:
-    label: If this is a code or "game/app development platform" proposal, please describe as much API detail as possible. How are users going to interface with this new feature?
+    label: If this is a code or "game/app development platform" proposal, please describe as much API detail as possible. How are developers going to interface with this new feature?
     placeholder: N/A for our comet example
   validations:
     required: false
@@ -36,6 +36,6 @@ body:
 - type: textarea
   attributes:
     label: Which of the following describes your feature? (1) A feature or content improvement for our Planetarium. (2) An improvement to help game/app developers that should be core. (3) An improvement to help game/app developers that should be an optional addon.
-    placeholder: Example - "Definitely #1 and possibly #2 (a game developer might want comets).
+    placeholder: Example - "Definitely (1) and possibly (2) (a game developer might want comets).
   validations:
     required: true
