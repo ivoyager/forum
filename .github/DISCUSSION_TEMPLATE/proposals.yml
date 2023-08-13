@@ -34,6 +34,6 @@ body:
 
 - type: textarea
   attributes:
-    label: Should this feature be part of core I, Voyager, or is it more appropriate as an optional addon?
+    label: Would this feature improve our Planetarium app? Or is it needed for game/app development? (Or both?) Would it be appropriate as an optional addon?
   validations:
     required: false
