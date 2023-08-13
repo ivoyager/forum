@@ -3,7 +3,7 @@ body:
 - type: markdown
   attributes:
     value: |
-      - Write a descriptive proposal title above.
+      Please write a descriptive title for your proposal above, and provide as much detail as you can in the fields below. If your idea is not fully fleshed out yet, please open a discussion in [General](https://github.com/orgs/ivoyager/discussions/categories/general) instead.
 
 - type: textarea
   attributes:
