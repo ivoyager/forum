@@ -34,6 +34,6 @@ body:
 
 - type: textarea
   attributes:
-    label: Should this proposal be part of **core** I, Voyager, or is it more of a special-case addon?
+    label: Should this feature be part of core I, Voyager, or is it more appropriate as an optional addon?
   validations:
     required: false
