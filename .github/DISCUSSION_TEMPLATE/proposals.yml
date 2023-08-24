@@ -7,35 +7,35 @@ body:
 
 - type: textarea
   attributes:
-    label: Describe what is missing or deficient and why it should be part of or improved in I, Voyager
+    label: Describe what is missing or deficient and why it should be included or improved.
     placeholder: Example - "The Planetarium doesn't have comets. Comets are important solar system bodies that should be included."
   validations:
     required: true
 
 - type: textarea
   attributes:
-    label: If this is a simulator "content" proposal, please describe how the content should appear and how users should interact with the content.
+    label: If this is a simulation or planetarium "content" proposal, describe how the content should appear and how users should interact with it.
     placeholder: Example - "Comets orbits and point locations should be visible in the same way that asteroids are currently. They should have thier own category in the GUI panel under the asteroid groups."
   validations:
     required: false
 
 - type: textarea
   attributes:
-    label: If this is a code or "game/app development platform" proposal, please describe as much API detail as possible. How are developers going to interface with this new feature?
+    label: If this is a "code" or "development platform" proposal, describe how developers will use the new system. Provide detailed API if possible.
     placeholder: N/A for our comet example
   validations:
     required: false
 
 - type: textarea
   attributes:
-    label: If applicable, please provide implementation code, pseudo-code, mock-ups, diagrams, or orbital maths. Do you have any helpful tips or gotchas to watch out for?
+    label: If applicable, provide implementation code, pseudo-code, mock-ups, diagrams, or orbital maths. Do you have any helpful tips or gotchas to watch out for?
     placeholder: Example - "Watch out! Some comets are listed with eccentricity > 1.0. These have hyperbolic trajectory through the inner solar system, but become elliptical as they move into the Oort cloud."
   validations:
     required: false
 
 - type: textarea
   attributes:
-    label: Which of the following describes your feature? (1) A feature or content improvement for our Planetarium. (2) An improvement to help game/app developers that should be core. (3) An improvement to help game/app developers that should be an optional addon.
+    label: Which of the following describes your feature? (1) A feature or content improvement for our Planetarium. (2) An improvement for game/app developers that should be in our core repositories. (3) An improvement for game/app developers that should be an optional addon.
     placeholder: Example - "Definitely (1) and possibly (2) (a game developer might want comets).
   validations:
     required: true
